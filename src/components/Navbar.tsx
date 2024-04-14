@@ -30,7 +30,7 @@ const Navbar = () => {
                 }
                 to={`/${page === "home" ? "" : page}`}
               >
-                <span className="font-semibold">0{index}</span>
+                <span className="font-bold">0{index}</span>
                 {page}
               </NavLink>
             </li>
