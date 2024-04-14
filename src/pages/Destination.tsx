@@ -15,10 +15,10 @@ const Destination = () => {
   const [dest, setDest] = useState<Destination>(destinations[0]);
   return (
     <div className="lg:before:bg-[url('./assets/destination/background-destination-desktop.jpg')] before:top-0 before:left-0 z-100 before:-z-30 before:absolute md:before:bg-[url('./assets/destination/background-destination-tablet.jpg')] before:bg-[url('./assets/destination/background-destination-mobile.jpg')] before:bg-cover mx-auto mt-[3rem] md:mt-[1rem] md:ml-auto w-[90%] md:w-[70%] lg:w-[80%] before:w-[100vw] before:h-full lg:min-h-screen text-center lg:text-start">
-      <h5 className="my-[4rem]">
+      <h6 className="my-[4rem] md:text-start">
         <span className="font-bold text-secondary/70">01</span> Pick your
         destination
-      </h5>
+      </h6>
       <div className="flex lg:flex-row flex-col justify-between items-center lg:items-start gap-8 ml-auto lg:w-[95%] lg:text-start">
         <img
           className="lg:justify-self-end lg:w-[30%]"
