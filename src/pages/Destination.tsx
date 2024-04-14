@@ -40,7 +40,7 @@ const Destination = () => {
           </div>
           <div>
             <h2 className="">{dest.name}</h2>
-            <p className="lg:self-start md:mr-auto w-[38ch] md:w-[46ch] text-secondary text-sm md:text-md">
+            <p className="lg:self-start md:mr-auto w-[38ch] md:w-[64ch] lg:w-[46ch] text-secondary text-sm md:text-md">
               {dest.description}
             </p>
           </div>

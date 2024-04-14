@@ -6,7 +6,7 @@ const Home = () => {
       <div className="flex flex-col items-center lg:items-start gap-[1rem] md:gap-[1.5rem] w-full lg:w-1/2">
         <h5 className="text-secondary">So, you want to travel to</h5>
         <h1 className="">Space</h1>
-        <p className="mx-auto md:mr-auto w-[38ch] md:w-[46ch] text-secondary text-sm md:text-md">
+        <p className="mx-auto md:mr-auto w-[38ch] md:w-[52ch] lg:w-[64ch] text-secondary text-sm md:text-md">
           Let’s face it; if you want to go to space, you might as well genuinely
           go to outer space and not hover kind of on the edge of it. Well sit
           back, and relax because we’ll give you a truly out of this world
