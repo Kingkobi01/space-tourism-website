@@ -15,7 +15,7 @@ const destinations: Destination[] = data.destinations;
 const Destination = () => {
   const [dest, setDest] = useState<Destination>(destinations[0]);
   return (
-    <div className="lg:before:bg-[url('./assets/destination/background-destination-desktop.jpg')] before:top-0 before:left-0 z-100 before:-z-30 before:absolute md:before:bg-[url('./assets/destination/background-destination-tablet.jpg')] before:bg-[url('./assets/destination/background-destination-mobile.jpg')] before:bg-cover mx-auto mt-[3rem] md:mt-[1rem] md:ml-auto w-[90%] md:w-[70%] lg:w-[80%] before:w-[100vw] before:h-full lg:min-h-screen text-center lg:text-start">
+    <div className="lg:before:bg-[url('assets/destination/background-destination-desktop.jpg')] before:top-0 before:left-0 z-100 before:-z-30 before:absolute md:before:bg-[url('assets/destination/background-destination-tablet.jpg')] before:bg-[url('assets/destination/background-destination-mobile.jpg')] before:bg-cover mx-auto mt-[3rem] md:mt-[1rem] md:ml-auto w-[90%] md:w-[70%] lg:w-[80%] before:w-[100vw] before:h-full lg:min-h-screen text-center lg:text-start">
       <h6 className="my-[4rem] md:text-start">
         <span className="mr-4 font-bold text-secondary/70">01</span> Pick your
         destination
