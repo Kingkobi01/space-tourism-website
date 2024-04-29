@@ -21,7 +21,7 @@ const Technology = () => {
         <span className="mr-4 font-bold text-secondary/70">03</span>Space launch
         101
       </h6>
-      <div className="flex lg:flex-row-reverse flex-col justify-between items-center gap-8 lg:gap-24 w-screen lg:w-full outline">
+      <div className="flex lg:flex-row-reverse flex-col justify-between items-center gap-8 lg:gap-24 w-screen lg:w-full">
         <AnimatePresence mode="wait">
           <m.img
             key={Tech.name}
