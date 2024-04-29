@@ -59,8 +59,8 @@ const Technology = () => {
                 onClick={() => setTech(tech)}
                 className={
                   Tech.name === tech.name
-                    ? "border-secondary hover:border-white border rounded-full w-[2.5rem] md:w-[3.75rem] lg:w-[5rem] aspect-square bg-white text-primary grid place-items-center"
-                    : "border-secondary hover:border-white border rounded-full w-[2.5rem] md:w-[3.75rem] lg:w-[5rem] aspect-square grid place-items-center"
+                    ? "border-secondary hover:border-white text-sm md:text-[1.5rem] lg:text-[2rem] border rounded-full w-[2.5rem] md:w-[3.75rem] lg:w-[5rem] aspect-square bg-white text-primary grid place-items-center"
+                    : "border-secondary hover:border-white text-sm md:text-[1.5rem] lg:text-[2rem] border rounded-full w-[2.5rem] md:w-[3.75rem] lg:w-[5rem] aspect-square grid place-items-center"
                 }
               >
                 {index + 1}
